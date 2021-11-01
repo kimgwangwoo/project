@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href="/css/carousel.css" rel="stylesheet">
+  <title>메인페이지</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" th:replace="fragments/common::menu">
+
+
+    </nav>
+  </header>
+
+  <main>
+
+    <div style="padding: 100px;">
+      <div style="text-align: center">
+        <h2>올해 신인선수</h2>
+      </div>
+    </div>
+
+    <!-- Marketing messaging and featurettes
+================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="mb-4 wooWidthImg" th:src="@{/image/kjw.png}" alt="" width="200" height="200" />
+          <h2>김진욱</h2>
+          <p>2002년 7월 5일생</p>
+          <p>수원신곡초-춘천중-강릉고</p>
+          <p>포지션:투수</p>
+          <p>계약금:3억7천만원</p>
+
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+
+          <img class="mb-4 wooWidthImg" th:src="@{/image/nsy.png}" alt="" width="200" height="200" />
+          <h2>나승엽</h2>
+          <p>2002년 2월 15일생</p>
+          <p>남정초-선린중-덕수고</p>
+          <p>포지션:내야수</p>
+          <p>계약금:5억원</p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+
+          <img class="mb-4 wooWidthImg" th:src="@{/image/ssb.png}" alt="" width="200" height="200" />
+          <h2>손성빈</h2>
+          <p>2002년 1월 14일생</p>
+          <p>희망대초-신흥중-장안고</p>
+          <p>포지션:포수</p>
+          <p>계약금:1억5천만원</p>
+
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">주간 롯데 MVP 후보 <span class="text-muted">외야수 백넘버 8</span></h2>
+          <h1>전준우</h1>
+          <p class="lead">최근 10경기 : 42타수 21안타 2타점 볼넷2 타율:0.436</p>
+        </div>
+        <div class="col-md-5">
+          <img class="mb-4 wooWidthImg" th:src="@{/image/JJO.png}" alt="" width="500" height="500" />
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">주간 롯데 MVP 후보 <span class="text-muted">투수 백넘버 56</span></h2>
+          <h1>최준용</h1>
+          <p class="lead">최근 10경기:11 1/3이닝 삼진10 ERA:0!! </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="mb-4 wooWidthImg" th:src="@{/image/CJY.png}" alt="" width="500" height="500" />
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">주간 롯데 MVP 후보 <span class="text-muted">내야수 백넘버 25</span></h2>
+          <h1>한동희</h1>
+          <p class="lead">최근 10경기 : 39타수 19안타 9타점 볼넷2 홈런2 타율:0.417</p>
+        </div>
+        <div class="col-md-5">
+          <img class="mb-4 wooWidthImg" th:src="@{/image/HDH.png}" alt="" width="500" height="500" />
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy;KimGwangwoo </p>
+    </footer>
+  </main>
+
+
+  <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
